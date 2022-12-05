@@ -45,6 +45,7 @@ var a=result.reduce((acc,cv)=>acc+cv.population,0);
 }
 
 // e). Print the country which uses US Dollars as currency.
+
 var request = new XMLHttpRequest();
 request.open("GET","https://restcountries.com/v2/all");
 request.send();
